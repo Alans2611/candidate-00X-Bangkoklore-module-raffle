@@ -8,7 +8,6 @@ const FloatingRaffle = ({ userId }) => {
   const [status, setStatus] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  // Fetch current ticket count
   const fetchTickets = async () => {
     try {
       const response = await fetch(`/api/raffle-status?userId=${userId}`);
@@ -19,7 +18,6 @@ const FloatingRaffle = ({ userId }) => {
     }
   };
 
-  // Join raffle directly (adds ticket without payment)
   const handleJoin = async () => {
     setLoading(true);
     setStatus(null);
@@ -46,7 +44,6 @@ const FloatingRaffle = ({ userId }) => {
     setLoading(false);
   };
 
-  // Open Stripe Checkout (simulated)
   const handleStripePayment = async () => {
     const stripe = await loadStripe("pk_test_XXXXXXXXXXXXXXXX"); // ← Replace with test key or keep dummy
 
