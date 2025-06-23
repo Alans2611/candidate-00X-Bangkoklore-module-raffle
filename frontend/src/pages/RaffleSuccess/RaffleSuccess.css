@@ -1,0 +1,317 @@
+.raffle-success {
+  min-height: 100vh;
+  background: var(--neutral-ivory);
+  padding-top: 0px;
+  overflow: hidden;
+}
+
+.raffle-success__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-2xl);
+}
+
+.raffle-success__content {
+  background: white;
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-2xl);
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.raffle-success__icon {
+  font-size: 4rem;
+  margin-bottom: var(--spacing-lg);
+}
+
+.raffle-success__title {
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  color: var(--accent-charcoal);
+  margin-bottom: var(--spacing-lg);
+}
+
+.raffle-success__message {
+  font-family: var(--font-body);
+  font-size: 1.2rem;
+  color: var(--accent-charcoal);
+  margin-bottom: var(--spacing-xl);
+  line-height: 1.6;
+}
+
+.raffle-success__details {
+  background: #e8f5e8;
+  border: 1px solid #4caf50;
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+}
+
+.raffle-success__details p {
+  font-family: var(--font-body);
+  color: #2e7d32;
+  margin: var(--spacing-sm) 0;
+  font-weight: 500;
+}
+
+.raffle-success__session {
+  margin-bottom: var(--spacing-lg);
+}
+
+.raffle-success__session small {
+  color: #666;
+  font-family: monospace;
+  word-break: break-all;
+}
+
+.raffle-success__actions {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.raffle-success__btn {
+  padding: var(--spacing-md) var(--spacing-xl);
+  border: none;
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 150px;
+}
+
+.raffle-success__btn--primary {
+  background: var(--primary-coral);
+  color: white;
+}
+
+.raffle-success__btn--primary:hover {
+  background: #d81b60;
+  transform: translateY(-2px);
+}
+
+.raffle-success__btn--secondary {
+  background: var(--accent-charcoal);
+  color: white;
+}
+
+.raffle-success__btn--secondary:hover {
+  background: #333;
+  transform: translateY(-2px);
+}
+
+
+
+@media (max-width: 1024px) {
+  .raffle-success__container {
+    max-width: 90%;
+    padding: var(--spacing-xl);
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 768px) {
+  .raffle-success {
+    padding-top: 20px;
+    padding-bottom: var(--spacing-lg);
+  }
+  
+  .raffle-success__container {
+    padding: var(--spacing-md);
+  }
+  
+  .raffle-success__content {
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-md);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .raffle-success__icon {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .raffle-success__title {
+    font-size: 2rem;
+    margin-bottom: var(--spacing-md);
+    line-height: 1.2;
+  }
+  
+  .raffle-success__message {
+    font-size: 1.1rem;
+    margin-bottom: var(--spacing-lg);
+    line-height: 1.5;
+  }
+  
+  .raffle-success__details {
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    border-radius: var(--radius-sm);
+  }
+  
+  .raffle-success__details p {
+    font-size: 0.95rem;
+    margin: var(--spacing-xs) 0;
+  }
+  
+  .raffle-success__session {
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .raffle-success__session small {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+  
+  .raffle-success__actions {
+    flex-direction: column;
+    gap: var(--spacing-sm);
+  }
+  
+  .raffle-success__btn {
+    width: 100%;
+    padding: var(--spacing-md);
+    min-width: unset;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .raffle-success {
+    padding-top: 40px;
+  }
+  
+  .raffle-success__container {
+    padding: var(--spacing-sm);
+  }
+  
+  .raffle-success__content {
+    padding: var(--spacing-md);
+    border-radius: var(--radius-sm);
+  }
+  
+  .raffle-success__icon {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  .raffle-success__title {
+    font-size: 1.75rem;
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  .raffle-success__message {
+    font-size: 1rem;
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .raffle-success__details {
+    padding: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .raffle-success__details p {
+    font-size: 0.9rem;
+  }
+  
+  .raffle-success__session small {
+    font-size: 0.75rem;
+  }
+  
+  .raffle-success__btn {
+    padding: var(--spacing-sm) var(--spacing-md);
+    font-size: 0.95rem;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .raffle-success {
+    padding-top: 70px;
+  }
+  
+  .raffle-success__container {
+    padding: var(--spacing-sm);
+  }
+  
+  .raffle-success__content {
+    padding: var(--spacing-sm);
+  }
+  
+  .raffle-success__title {
+    font-size: 1.5rem;
+  }
+  
+  .raffle-success__message {
+    font-size: 0.95rem;
+  }
+  
+  .raffle-success__icon {
+    font-size: 2rem;
+  }
+}
+
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .raffle-success {
+    padding-top: 60px;
+    padding-bottom: var(--spacing-md);
+  }
+  
+  .raffle-success__icon {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  .raffle-success__title {
+    font-size: 1.75rem;
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  .raffle-success__message {
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .raffle-success__details {
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .raffle-success__actions {
+    flex-direction: row;
+    gap: var(--spacing-sm);
+  }
+  
+  .raffle-success__btn {
+    width: auto;
+    min-width: 120px;
+  }
+}
+
+
+@media (hover: none) and (pointer: coarse) {
+  .raffle-success__btn {
+    min-height: 48px; 
+    padding: var(--spacing-md);
+  }
+  
+  .raffle-success__btn:active {
+    transform: translateY(0);
+  }
+  
+  .raffle-success__btn--primary:active {
+    background: #d81b60;
+  }
+  
+  .raffle-success__btn--secondary:active {
+    background: #333;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .raffle-success__content {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  }
+}

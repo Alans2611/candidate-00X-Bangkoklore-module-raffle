@@ -1,0 +1,106 @@
+:root {
+  --primary-color: #E91E63;
+  --accent-color: #424242;
+}
+
+.raffle-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.raffle-toggle {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  font-size: 24px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.raffle-panel {
+  width: 300px;
+  height: 350px;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  animation: slideUp 0.3s ease-out;
+  position: relative;
+}
+
+.raffle-panel h4 {
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+.raffle-panel p {
+  font-family: 'Lora', serif;
+  color: var(--accent-color);
+  margin: 8px 0;
+}
+
+.raffle-btn {
+  width: 100%;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.success-msg {
+  color: green;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.error-msg {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.raffle-close {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.raffle__payment-button {
+  background-color: var(--primary-color); /* green */
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.raffle__payment-button:hover {
+  background-color: #28a745; /* darker green */
+}
+
+
+@keyframes slideUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
