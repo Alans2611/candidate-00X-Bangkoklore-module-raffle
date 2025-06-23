@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/candidate-00X-Bangkoklore-module-raffle/static/css/main.ed350b5b.css",
+    "main.js": "/candidate-00X-Bangkoklore-module-raffle/static/js/main.e6e79d36.js",
+    "static/js/453.670e15c7.chunk.js": "/candidate-00X-Bangkoklore-module-raffle/static/js/453.670e15c7.chunk.js",
+    "static/media/mainbg.png": "/candidate-00X-Bangkoklore-module-raffle/static/media/mainbg.ecd740f4ea57565ccc8f.png",
+    "index.html": "/candidate-00X-Bangkoklore-module-raffle/index.html",
+    "main.ed350b5b.css.map": "/candidate-00X-Bangkoklore-module-raffle/static/css/main.ed350b5b.css.map",
+    "main.e6e79d36.js.map": "/candidate-00X-Bangkoklore-module-raffle/static/js/main.e6e79d36.js.map",
+    "453.670e15c7.chunk.js.map": "/candidate-00X-Bangkoklore-module-raffle/static/js/453.670e15c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed350b5b.css",
+    "static/js/main.e6e79d36.js"
+  ]
+}
